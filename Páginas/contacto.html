@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <a href="../inicio.html"> inicio </a>
+        <br>
+        <a href="Productos.html"> Productos </a>
+        <br>
+        <a href="Nosotros.html"> Contacto </a>
+        <br>
+    </div>
+
+<div style="text-align: center;">
+    <h1 style="text-align: center;">Contactanos</h1>
+    <p style="text-align: center;">Atendemos de lunes a viernes</p> 
+    <img src="../Imagenes/contac.jpg" width="30%">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1420225570455!2d-75.60207112415338!3d6.245007526335193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44299e12ba1b25%3A0x9337ddad1422127a!2sPijamas%20Dolce%20D&#39;amore!5e0!3m2!1ses!2sco!4v1742048025456!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div style="text-align: center;">
+    <h1>Formulario de contacto</h1>
+    <form >
+        <label>Ingresa tu nombre:</label>
+        <input name="nombre" required type="text" placeholder="Escribir en mayúsculas"> <br>
+        <label >Edad:</label>
+        <input name="Edad" required type="Number" min="18" max="50"> <br>
+        <label >Telefono o Celular</label>
+        <input name="Telefono" type="tel"> <br>
+        <label >Correo Electronico:</label>
+        <input name="Correo" type="email" required> <br>
+        <label >Fecha de nacimiento:</label>
+        <input name="Fecha" type="date" min="1950-01-01" max="2006-12-31"> <br>
+        <label >Selecciona tu género:</label> <br>
+        <input type="radio" name="genero" value="Hombre">Hombre
+        <input type="radio" name="genero" value= "Mujer">Mujer
+        <input type="radio" name="genero" value="Otro">Otro
+        <input type="radio" name="genero" value="Prefiero no decirlo">Prefiero no decirlo <br>
+
+        <label>Selecciona medio de contacto:</label> <br>
+        <input type="checkbox" name="medio" value="Telefono">Telefono
+        <input type="checkbox" name="medio" value="Correo">Correo   
+        <input type="checkbox" name="medio" value="Whatsapp">Whatsapp <br>
+        <label>Dejanos tu mensaje:</label> <br>
+
+        <label>Selecciona un conjunto:</label>
+        <select name="conjunto">
+            <option value="1">Conjunto de pijama corta</option>
+            <option value="2">Conjunto batola + pantunflas</option>
+            <option value="3">Conjunto de pijama +cojín</option>
+            <option value="4">Conjunto de pijama + cobija</option>
+            <select> <br>
+                <label>Observación:</label> <br>
+                <textarea name="observacion" rows="3" cols="5"></textarea>
+            
+                 <br> <br>
+                <label>¿Deseas recibir información de nuevos productos?</label> <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        <br><br><br><br><br><br><br>
+
+
+    </form>
+
+</div>
+</body>
+</html>
